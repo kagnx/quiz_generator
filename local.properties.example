@@ -1,0 +1,8 @@
+# Bu dosyayı local.properties olarak kopyalayıp kendi yollarınızı girin.
+# Android Studio'da Flutter projesini ilk açtığınızda bu dosya genellikle
+# otomatik oluşturulur; oluşmazsa elle ayarlayın.
+
+sdk.dir=/Users/KULLANICI_ADI/Library/Android/sdk
+flutter.sdk=/Users/KULLANICI_ADI/flutter
+flutter.versionName=1.0.0
+flutter.versionCode=1

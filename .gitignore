@@ -1,32 +1,17 @@
-# Flutter / Dart
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
-*.lock
+flutter/ephemeral/
 
-# Android
-android/local.properties
-android/.gradle
-android/captures/
-android/gradlew
-android/gradlew.bat
-**/android/**/GeneratedPluginRegistrant.java
+# Visual Studio user-specific files.
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# iOS
-ios/Flutter/Generated.xcconfig
-ios/Flutter/flutter_export_environment.sh
-ios/Pods/
-ios/.symlinks/
-**/ios/**/GeneratedPluginRegistrant.*
+# Visual Studio build-related files.
+x64/
+x86/
 
-# IDE
-.idea/
-*.iml
-.vscode/
-
-# macOS
-.DS_Store
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
