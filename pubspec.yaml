@@ -1,0 +1,54 @@
+name: quiz_generator_flutter
+description: "Belgelerden (Word/Excel/PowerPoint) AI ile otomatik quiz üreten uygulama."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # Dosya seçme
+  file_picker: ^8.0.0
+
+  # .docx / .pptx ZIP+XML ayrıştırma
+  archive: ^3.6.1
+  xml: ^6.5.0
+
+  # .xlsx ayrıştırma
+  excel: ^4.0.3
+
+  # AI API çağrıları
+  http: ^1.2.1
+
+  # Yerel veri saklama (quiz verileri)
+  shared_preferences: ^2.2.3
+
+  # API key'lerin şifreli saklanması (Android Keystore / iOS Keychain)
+  flutter_secure_storage: ^9.2.2
+
+  # API key alma linklerini tarayıcıda açmak için
+  url_launcher: ^6.3.0
+
+  # PDF üretimi ve yazdırma
+  pdf: ^3.11.1
+  printing: ^5.13.2
+
+  # Dosya paylaşımı ve kaydetme
+  share_plus: ^10.1.4
+  path_provider: ^2.1.5
+
+  # Grafikler ve Görselleştirme
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
